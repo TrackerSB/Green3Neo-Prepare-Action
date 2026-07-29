@@ -6,6 +6,3 @@ runs:
       uses: actions/checkout@v6.0.2
     - name: Load environment variables
       uses: xom9ikk/dotenv@v2.3.0
-    - name: Extend PATH
-      run: |
-        echo "/usr/bin" >> $GITHUB_PATH
