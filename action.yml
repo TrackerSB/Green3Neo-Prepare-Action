@@ -8,4 +8,4 @@ runs:
       uses: xom9ikk/dotenv@v2.3.0
     - name: Extend PATH
       run: |
-        export "PATH=$PATH:/usr/bin"
+        echo "/usr/bin" >> $GITHUB_PATH
