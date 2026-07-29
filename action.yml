@@ -8,4 +8,4 @@ runs:
       uses: xom9ikk/dotenv@v2.3.0
     - name: Extend PATH
       run: |
-        echo "PATH=$PATH:/usr/bin"
+        export "PATH=$PATH:/usr/bin"
